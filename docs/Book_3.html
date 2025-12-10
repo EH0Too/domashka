@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book 1 - Creative Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .book-content {
+            padding: 100px 0;
+            min-height: 100vh;
+        }
+        .book-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .book-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .book-text {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .book-title {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            color: var(--color-header);
+            text-align: center;
+        }
+        .book-description {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: var(--color-text);
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-header);
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin-top: 40px;
+            padding: 10px 20px;
+            border: 1px solid var(--color-header);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: var(--color-header);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="book-content">
+            <div class="book-image">
+                <img src="work/3.jpg" alt="Book 1">
+            </div>
+            <div class="book-text">
+                <h1 class="book-title">The Art of Creative Design</h1>
+                <p class="book-description">
+                    This comprehensive guide explores the fundamental principles of creative design. 
+                    From color theory to composition, typography to user experience, this book covers 
+                    everything you need to know to create stunning visual designs that captivate and inspire.
+                </p>
+                <p class="book-description">
+                    Written by industry experts with decades of experience, this volume includes 
+                    practical exercises, real-world examples, and insights from leading designers 
+                    across various fields including web design, print media, and digital art.
+                </p>
+                <a href="index.html" class="back-link">← Back to Gallery</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
